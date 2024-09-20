@@ -1,6 +1,7 @@
 on:
   push:
-    - dev
+    branches:
+      - dev
 
 jobs:
   test-job:
