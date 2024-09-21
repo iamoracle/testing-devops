@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   test:
     docker:
-      - image: circleci/node
+      - image: cimg/node:lts
     steps:
       - run: npm install
       - run: npm test
